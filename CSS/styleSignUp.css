@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(180deg, #D1EFFF 0%, #C4D8FF 0.01%, #95D2FF 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    padding: 0px 40px;
+}
+.title h1{
+    font-size: 48px;
+    color: #212121;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 750;
+    line-height: 58px;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.profile-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profile-info.profile-text h3{
+    font-size: 22px;
+    color: #212121;
+    text-align: right;
+    line-height: 26px;
+}
+
+.profile-info.profile-text h2{
+    font-size: 30px;
+    color: #212121;
+    text-align: right;
+}
+#h2{
+    font-weight: 450;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+#h3{
+    font-weight: 100;
+}
+.profile-info img{
+    height: 66px;
+    width: 66px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 10px rgba(191,191,191,0.3);
+    width: 80%;
+    align-self: center;
+    margin-top: 20px; 
+    color: #212121;
+}
+#container-title h1, p{
+    margin-bottom: 10px;
+}
+#container-title p{
+    font-size: 15px;
+}
+.container .image{
+    width: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100%;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/4237730-personagem-ilustracao-design-de-mulher-pilotando-um-foguete-para-uma-startup-conceito-pagina-de-destino-vetor.jpg);
+    background-size: cover;
+}
+.container .data{
+    padding: 40px;
+    width: 50%;
+}
+
+#logo{
+    width: 70px; 
+    height: 70px;
+}
+.container .data .inputs input{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+#email{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/640px-At_sign.svg.png);
+}
+
+#password{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/768px-Lock_font_awesome.svg.png);
+}
+
+.container .data .check{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: row;
+margin: 5px 0px;
+}
+.container span, p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    
+}
+span a, .container p a{
+    color: #212121;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container p a{
+    color: rgb(49, 162, 236);
+}
+.container .data .check input{
+    margin-right: 10px;
+}
+
+#btn{
+    /* background-color: rebeccapurple; */
+    border-radius: 8px;
+    padding: 12px 22px;
+    border: none;
+    margin: 10px 0px;
+    background-image: linear-gradient(180deg, #ade0fc 0%, #94b6fa 0.01%, #73c4fd 100%);
+    color: white;
+    font-weight: 600;
+}
+
+/* button[type="submit"]{
+    background-color: rebeccapurple;
+} */
